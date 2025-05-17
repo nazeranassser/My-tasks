@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task manager</title>
+    <link rel="stylesheet" href="css/styles.css"/>
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">task manager</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    <div class="task-manager-container">
+  <h2>My tasks</h2>
+
+  <input type="text" id="taskInput" placeholder="Enter a new task" />
+
+  <button id="addTaskButton">Add Task</button>
+
+  <div class="filter-options">
+    <label>
+      <input type="radio" name="filter" value="all" checked /> All
+    </label>
+    <label>
+      <input type="radio" name="filter" value="completed" /> Completed
+    </label>
+    <label>
+      <input type="radio" name="filter" value="not-completed" /> Not Completed
+    </label>
+  </div>
+
+  <ul id="taskList"></ul>
+</div>
+<footer>
+      <p>All rights reserved</p>
+    </footer>
+<script src="js/app.js"></script>
+
+
+    
+</body>
+</html>
