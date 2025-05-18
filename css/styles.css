@@ -1,0 +1,182 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+body {
+  margin-bottom: 80px; 
+}
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.navbar .nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-links li a:hover {
+  color: #511788;
+}
+
+
+.task-manager-container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 30px auto;
+  border-radius: 10px;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.task-manager-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#taskInput {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#addTaskButton {
+  width: 100%;
+  padding: 10px;
+  background-color: #761ec9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#addTaskButton:hover {
+  background-color: #511788;
+}
+
+.filter-options {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.filter-options label {
+  margin-right: 15px;
+  font-size: 14px;
+}
+
+
+#taskList {
+  list-style-type: none;
+}
+
+#taskList li {
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#taskList li.completed {
+  text-decoration: line-through;
+  background-color: #d4edda;
+}
+
+
+footer {
+    width: 100%;
+  text-align: center;
+  background-color: #333; 
+  color: white;
+
+  position: fixed; 
+  bottom: 0; 
+  left: 0;
+  font-size: 18px;
+  padding: 15px 0;
+}
+
+.personal-information, .contact-form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 30px auto;
+  border-radius: 10px;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+.personal-information h2,
+.contact-form h2 {
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+
+.personal-information p {
+  color: #555;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+
+.contact-form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+
+.contact-form button {
+  background-color: #761ec9; 
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+.contact-form button:hover {
+  background-color: #511788;
+}
