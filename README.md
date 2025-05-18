@@ -1,8 +1,9 @@
-# Github Pages : [](https://nazeranassser.github.io/My-tasks/) 
+# Github Pages:
+[My Tasks Live Demo](https://nazeranassser.github.io/My-tasks/)
 
-# the wirfeframe :
-### home page
-![](home.PNG)
+# The Wireframe:
+### Home Page
+![Home Page](home.PNG)
 ___
-### about page 
-![](about.PNG)
+### About Page 
+![About Page](about.PNG)
